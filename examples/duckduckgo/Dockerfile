@@ -1,6 +1,6 @@
 #FROM quay.io/ivanvanderbyl/docker-nightmare:latest
-FROM 9d2134d20222
-MAINTAINER "Ivan Vanderbyl <ivan@flood.io>"
+FROM quay.io/stanxii/stan-nightmare
+MAINTAINER "stanxii <stan.xii@gmail.com>"
 
 ADD . /workspace
 RUN yarn install
